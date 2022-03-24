@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+    color:seashell;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    opacity: 0.9;
+    font-size: 22px;
+    background-color: black;
+    
+}
+
+main {
+    margin: 69px;
+}
+.navbar {
+    height: 69px;
+    width: 100%;
+    border: 1px solid seashell;
+    position:fixed;
+    top:0;
+    z-index:10;
+    background-color: black;
+
+}
+.logo {
+    margin:10px 10px;
+    display: inline-block;
+}
+
+nav {
+    float: right;
+}
+
+nav a{
+    display: inline-block;
+    margin: 20px 20px;
+    font-size: 22px;
+
+}
+.Mainbanner {
+   
+    z-index: 1;
+    position: relative;
+    
+}
+
+.title {
+   text-align: center;
+   top:40%;
+   width: 100%;
+   position: absolute;
+   font-size: 22px;
+   line-height: 2;
+   background-color: black;
+
+}
+
+.Topic {
+   width: 1000px;
+   margin: auto;
+   text-align: center;
+   margin-top: 70px ;
+
+}
+.Title, .Description {
+    padding-bottom: 30px;
+}
+.Showcase {
+    margin: auto;
+}
+.Product {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+
+}
+.Product img {
+    width: 300px;
+    height: 200px;
+}
+
+.Product h4 {
+    padding: 10px;
+    text-align: center;
+}
+.Locations {
+    margin-top: 70px;
+    position: relative;
+
+}
+
+.text-banner {
+    position: absolute;
+    top: 6vw;
+    z-index: 1;
+    left:45%;
+}
+
+.address-card  {
+    position:absolute;
+    top:30%;
+    width:100%;
+    z-index: 1;
+    height: 300px;
+    display: flex;
+}
+
+.Card {
+    background-color:black;
+    width: 30%;
+    margin: 0px 40px;
+    flex:1;
+    opacity: 1;
+}
+
+.Card h3 {
+    text-align: center;
+    padding: 23px;
+    
+}
+
+.Contact {
+    text-align: center;
+    height: 200px;
+    line-height: 60px;
+    padding: 12px;
+    
+}
+
+.Footer {
+    margin:20px;
+    text-align: left;
+}
